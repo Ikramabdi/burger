@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,27 @@
 </head>
 <body>
     <i class =""> </i>
+
+    <!-- NAV BOUTTON -->
+    <span class="nav-btn" id="nav-btn"> <i class="fas fa-bars"> </i> </span>
+    <!-- END BUTTON -->
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-header ">
+            <span class="nav-close" id="nav-close">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <ul class="nav-items">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">Special</a></li>
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Product</a></li>
+
+        </ul>
+    </nav>
+    <!-- END OF NAVBAR -->
     <!-- header-->
     <header>
         <header class="header">
@@ -196,7 +218,8 @@
           <!-- contact forms -->
           <article class="contact-form">
             
-          <form class="form-group">
+          <form class="form-group"  action="https://formspree.io/f/meqnwgzl"
+          method="POST">
             <input type="text" name="name" placeholder="name" class="form-control">
             <input type="email" name="email" placeholder="email" class="form-control">
             <textarea name="message" rows="5" class="form-control" placeholder="message"></textarea>
@@ -231,5 +254,6 @@
 
 
     <!-- end footer -->
+    <script src="app.js"></script>
 </body>
 </html>
